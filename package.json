@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kedaroo/portfolio-in-tailiwind.git"
+    "url": "git+https://github.com/kedaroo/portfolio-in-tailwind.git"
   },
   "keywords": [
     "Tailwind",
@@ -18,9 +18,9 @@
   "author": "Kedar Basutkar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kedaroo/portfolio-in-tailiwind/issues"
+    "url": "https://github.com/kedaroo/portfolio-in-tailwind/issues"
   },
-  "homepage": "https://github.com/kedaroo/portfolio-in-tailiwind#readme",
+  "homepage": "https://github.com/kedaroo/portfolio-in-tailwind#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.1"
   }
