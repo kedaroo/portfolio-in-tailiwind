@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-in-tailiwind",
+  "version": "1.0.0",
+  "description": "Portfolio website built using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kedaroo/portfolio-in-tailiwind.git"
+  },
+  "keywords": [
+    "Tailwind",
+    "Portfolio"
+  ],
+  "author": "Kedar Basutkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kedaroo/portfolio-in-tailiwind/issues"
+  },
+  "homepage": "https://github.com/kedaroo/portfolio-in-tailiwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
