@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+}
+
+@layer components {
+  .card {
+    @apply transform rounded-xl bg-slate-200 bg-opacity-60 p-3 transition-all duration-200 ease-in-out hover:scale-95;
+  }
+}
+
 body {
   background-color: #fafafa;
   background-image: radial-gradient(#7373735f 0.8px, transparent 0.8px),
