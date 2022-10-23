@@ -18,7 +18,7 @@
 
 @layer components {
   .card {
-    @apply transform rounded-xl bg-opacity-60 p-3 transition-all duration-200 ease-in-out hover:scale-95;
+    @apply transform rounded-xl bg-white bg-opacity-60 p-3 shadow-lg transition-all duration-200 ease-in-out hover:scale-95;
   }
 
   .social-link {
@@ -27,9 +27,13 @@
 }
 
 body {
+  background-color: rgb(243, 243, 243);
+}
+
+/* body {
   background-color: #fafafa;
   background-image: radial-gradient(#7373735f 0.8px, transparent 0.8px),
     radial-gradient(#73737351 0.8px, #fafafa 0.8px);
   background-size: 32px 32px;
   background-position: 0 0, 16px 16px;
-}
+} */
