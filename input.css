@@ -16,6 +16,10 @@
   .card {
     @apply transform rounded-xl bg-slate-200 bg-opacity-60 p-3 transition-all duration-200 ease-in-out hover:scale-95;
   }
+
+  .social-link {
+    @apply transform p-2 text-2xl transition-all hover:scale-110;
+  }
 }
 
 body {
