@@ -18,7 +18,7 @@
 
 @layer components {
   .card {
-    @apply transform rounded-xl bg-white bg-opacity-60 p-3 shadow-lg transition-all duration-200 ease-in-out hover:scale-95;
+    @apply transform rounded-xl border-2 border-gray-500 bg-white bg-opacity-60 p-3 transition-all duration-200 ease-in-out hover:scale-95;
   }
 
   .social-link {
