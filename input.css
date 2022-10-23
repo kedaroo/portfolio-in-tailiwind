@@ -6,6 +6,10 @@
   h2 {
     @apply text-2xl font-semibold;
   }
+
+  li {
+    @apply transition-all hover:ml-4;
+  }
 }
 
 @layer components {
