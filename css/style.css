@@ -643,6 +643,10 @@ li:hover {
   bottom: 33.333333%;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -690,6 +694,10 @@ li:hover {
 
 .h-full {
   height: 100%;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .w-full {
@@ -1114,6 +1122,10 @@ li:hover {
 
   .md\:h-28 {
     height: 7rem;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:grid-cols-3 {
