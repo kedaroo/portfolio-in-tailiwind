@@ -4,15 +4,15 @@
 
 @layer base {
   h2 {
-    @apply text-xl font-semibold;
+    @apply text-xl font-semibold md:text-2xl;
   }
 
   li {
-    @apply transition-all hover:ml-4;
+    @apply transition-all hover:ml-4 md:text-xl;
   }
 
   p {
-    @apply md:text-xl
+    @apply md:text-xl;
   }
 }
 
