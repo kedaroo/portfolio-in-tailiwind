@@ -8,11 +8,11 @@
   }
 
   li {
-    @apply cursor-pointer transition-all hover:ml-4 hover:text-green-500 md:text-xl;
+    @apply cursor-pointer transition-all hover:ml-4 hover:text-green-500 md:text-lg;
   }
 
   p {
-    @apply md:text-xl;
+    @apply md:text-lg;
   }
 }
 
@@ -26,10 +26,26 @@
   }
 }
 
-body {
-  background-color: #fafafa;
-  background-image: radial-gradient(#7373735f 0.8px, transparent 0.8px),
-    radial-gradient(#73737351 0.8px, #fafafa 0.8px);
+/* body {
+  background-color: #ffffff;
+  background-image: radial-gradient(#404040 0.8px, transparent 0.8px),
+    radial-gradient(#2c2c2c 0.8px, #fffef7 0.8px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+} */
+
+.dark-bg {
+  background-color: #ffffff;
+  background-image: radial-gradient(#3a3a3a 0.8px, transparent 0.8px),
+    radial-gradient(#2c2c2c 0.8px, #131313 0.8px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+.light-bg {
+  background-color: #ffffff;
+  background-image: radial-gradient(#c3c3c3 0.8px, transparent 0.8px),
+    radial-gradient(#cccccc 0.8px, #f0f0f0 0.8px);
   background-size: 32px 32px;
   background-position: 0 0, 16px 16px;
 }

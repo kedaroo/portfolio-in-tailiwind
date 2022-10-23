@@ -15,10 +15,12 @@
     <title>Kedar Basutkar</title>
   </head>
   <body>
-    <div class="background mx-auto flex h-screen max-w-4xl flex-col p-4">
+    <div
+      class="background mx-auto flex h-screen max-w-4xl flex-col p-4 dark:text-gray-200"
+    >
       <!-- Hero Section -->
       <div
-        class="w-full rounded-xl bg-sky-300/20 text-center shadow shadow-sky-100"
+        class="light:shadow-sky-100 relative w-full rounded-xl bg-sky-300/20 text-center shadow-md"
       >
         <!-- Color Bar -->
         <div class="mb-2 grid h-2 grid-cols-4">
@@ -30,13 +32,17 @@
         <!--  -->
         <h1 class="text-3xl font-bold"><a href="#">Kedar Basutkar</a></h1>
         <h3 class="mb-2 text-xl">Full Stack Developer</h3>
+        <i
+          class="fa-regular fa-sun  absolute right-4 bottom-1/3 text-xl md:right-8 md:text-2xl"
+          id="dark-mode-btn"
+        ></i>
       </div>
       <!--  -->
 
       <!-- Grid Container -->
       <div class="mt-4 grid flex-1 grid-cols-2 gap-4 pb-4 md:grid-cols-3">
         <!-- About Card -->
-        <div class="card bg-purple-300/20 shadow-md shadow-purple-100">
+        <div class="card light:shadow-purple-100 bg-purple-300/20 shadow-md">
           <h2 class="mb-2">ℹ️ About</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
@@ -57,7 +63,7 @@
 
         <!-- My Work Card -->
         <div
-          class="card bg-emerald-300/20 shadow-md shadow-emerald-100 md:row-span-2"
+          class="card light:shadow-emerald-100 bg-emerald-300/20 shadow-md md:row-span-2"
         >
           <div class="mb-2 flex items-center justify-between">
             <h2>🛠️ My Work</h2>
@@ -83,14 +89,17 @@
         <!--  -->
 
         <!-- Experience Card -->
-        <div class="card bg-amber-300/20 shadow-md shadow-amber-100">
+        <div class="card light:shadow-amber-100 bg-amber-300/20 shadow-md">
           <h2 class="mb-2">👔 Experience</h2>
           <h4 class="text-lg font-semibold">
             <a
               href="https://blog.kedarbasutkar.me/my-first-internship-experience-at-eaton"
               target="_blank"
-              >Eaton Aerospace</a
-            >
+              >Eaton Aerospace
+              <i
+                class="fa-solid fa-arrow-up-right-from-square transform cursor-pointer p-2 text-sm transition-all hover:-translate-x-2 hover:scale-110"
+              ></i
+            ></a>
           </h4>
           <h5 class="text-lg">Intern</h5>
           <p class="text-sm">Jun 2022 - Aug 2022</p>
@@ -98,7 +107,7 @@
         <!--  -->
 
         <!-- My Blog Card -->
-        <div class="card bg-stone-300/30 shadow-md shadow-stone-100">
+        <div class="card light:shadow-stone-100 bg-stone-300/30 shadow-md">
           <div class="mb-2 flex items-center justify-between">
             <h2 class="">✍️ My Blog</h2>
             <a href="https://blog.kedarbasutkar.me/" target="_blank">
@@ -116,7 +125,7 @@
 
         <!-- Say Hello Card -->
         <div
-          class="flex flex-col rounded-lg bg-rose-300/30 shadow-md shadow-rose-100 md:col-span-3 md:-mt-4 md:h-28 md:self-end"
+          class="ligth:shadow-rose-100 flex flex-col rounded-lg bg-rose-300/30 shadow-md md:col-span-3 md:-mt-4 md:h-28 md:self-end"
         >
           <div class="mt-3 ml-3 flex flex-1 flex-col justify-between">
             <div class="flex items-center space-x-2 md:justify-center">
@@ -162,5 +171,6 @@
       </div>
       <!--  -->
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
