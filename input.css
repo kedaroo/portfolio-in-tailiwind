@@ -4,7 +4,11 @@
 
 @layer base {
   h2 {
-    @apply text-lg font-bold md:text-2xl;
+    @apply text-lg font-bold md:text-xl;
+  }
+
+  h4 {
+    @apply md:text-lg;
   }
 
   li {
@@ -26,7 +30,7 @@
   }
 
   .skill-pill {
-    @apply rounded-lg p-1 bg-indigo-200/40;
+    @apply rounded-lg bg-indigo-200/40 p-1;
   }
 }
 
@@ -52,4 +56,50 @@
     radial-gradient(#cccccc 0.8px, #f0f0f0 0.8px);
   background-size: 32px 32px;
   background-position: 0 0, 16px 16px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background: rgba(234, 117, 255, 0.629);
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
