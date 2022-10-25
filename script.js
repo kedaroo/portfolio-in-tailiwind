@@ -7,11 +7,11 @@ if (
   (!("theme" in localStorage) &&
     window.matchMedia("(prefers-color-scheme: dark)").matches)
 ) {
-  document.documentElement.classList.add("dark");
-  document.body.classList.add("dark-bg");
-} else {
   document.documentElement.classList.remove("dark");
   document.body.classList.add("light-bg");
+} else {
+  document.documentElement.classList.add("dark");
+  document.body.classList.add("dark-bg");
 }
 
 function toggleDarkMode() {
