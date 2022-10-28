@@ -30,7 +30,7 @@
   }
 
   .skill-pill {
-    @apply rounded-lg bg-indigo-200/40 p-1;
+    @apply rounded-xl bg-indigo-200/40 px-2;
   }
 }
 
