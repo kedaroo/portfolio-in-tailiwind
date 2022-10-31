@@ -45,8 +45,9 @@
       </div>
       <!--  -->
 
+      <!-- My Work Title -->
       <div
-        class="my-4 text-center text-6xl font-bold tracking-wider opacity-20 md:my-8 md:text-8xl"
+        class="my-4 text-center text-6xl font-bold tracking-wider opacity-30 md:my-8 md:text-8xl"
       >
         My Work
       </div>
@@ -54,13 +55,11 @@
       <!-- Grid Container -->
       <div class="mt-4 grid flex-1 grid-cols-1 gap-8 pb-4 md:grid-cols-2">
         <!-- Get Interview Ready Card -->
-        <div
-          class="flex h-full transform flex-col rounded-xl bg-white bg-opacity-50 p-4 shadow-md dark:bg-black dark:bg-opacity-100"
-        >
+        <div class="project-card-container">
           <!-- Project Image -->
           <img
             src="./assets/interviewready.png"
-            class="rounded-xl"
+            class="project-mockup"
             alt="app demo"
           />
 
@@ -68,7 +67,7 @@
 
           <h2 class="my-3 text-3xl">Get Interview Ready</h2>
 
-          <p class="text-gray-500">
+          <p class="project-description">
             One-stop solution for helping you with all aspects of interview
             preparation, from practicing technical and behavioral questions to
             helping you manage your referral network, and so much more!
@@ -76,45 +75,43 @@
 
           <!-- Tech Stack -->
 
-          <div class="mt-3 flex flex-wrap gap-2">
-            <div class="rounded-xl border border-indigo-400 px-3">React</div>
-            <div class="rounded-xl border border-indigo-400 px-3">
-              JavaScript
-            </div>
-            <div class="rounded-xl border border-indigo-400 px-3">Node</div>
-            <div class="rounded-xl border border-indigo-400 px-3">Express</div>
+          <div class="tech-stack-container">
+            <div class="tech-stack-pill">React</div>
+            <div class="tech-stack-pill">JavaScript</div>
+            <div class="tech-stack-pill">Node</div>
+            <div class="tech-stack-pill">Express</div>
           </div>
 
           <!-- Buttons -->
-          <div
-            class="mx-auto my-3 mt-auto flex w-3/4 flex-col justify-center space-y-2 pt-4 text-center"
-          >
+          <div class="project-btn-container">
             <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-300/40 px-4 py-2 transition-all hover:scale-105"
-              >View Source
-            </a>
+              href="https://get-interview-ready.vercel.app/"
+              class="primary-link"
+              >See Demo</a
+            >
             <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-400 px-4 py-2 text-white transition-all hover:scale-105"
-              >See Demo
-            </a>
+              href="https://github.com/get-interview-ready"
+              class="secondary-link"
+              >View Source</a
+            >
           </div>
         </div>
         <!--  -->
 
         <!-- devCase Card -->
-        <div
-          class="transform rounded-xl bg-white bg-opacity-50 p-4 shadow-md dark:bg-black dark:bg-opacity-100"
-        >
+        <div class="project-card-container">
           <!-- Project Image -->
-          <img src="./assets/devcase.png" class="rounded-xl" alt="app demo" />
+          <img
+            src="./assets/devcase.png"
+            class="project-mockup"
+            alt="app demo"
+          />
 
           <!-- Title & Descriptions -->
 
           <h2 class="my-3 text-3xl">devCase</h2>
 
-          <p class="text-gray-500">
+          <p class="project-description">
             devCase - Showcase your developer skills in minutes. Builds your
             portfolio seamlessly by using your GitHub, Twitter, Hashnode data.
             devCase is one of the winners at Crossknot Hacks Hackathon✨
@@ -122,36 +119,28 @@
 
           <!-- Tech Stack -->
 
-          <div class="mt-3 flex flex-wrap gap-2">
-            <div class="rounded-xl border border-indigo-400 px-3">Next.js</div>
+          <div class="tech-stack-container">
+            <div class="tech-stack-pill">Next.js</div>
           </div>
 
           <!-- Buttons -->
-          <div
-            class="mx-auto my-3 flex w-3/4 flex-col justify-center space-y-2 pt-4 text-center"
-          >
-            <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-300/40 px-4 py-2 transition-all hover:scale-105"
-              >View Source
-            </a>
-            <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-400 px-4 py-2 text-white transition-all hover:scale-105"
+          <div class="project-btn-container">
+            <a href="https://devcase.vercel.app/" class="primary-link"
               >See Demo
+            </a>
+            <a href="https://github.com/kedaroo/devCase" class="secondary-link"
+              >View Source
             </a>
           </div>
         </div>
         <!--  -->
 
         <!-- EV Trip Planner Card -->
-        <div
-          class="flex transform flex-col rounded-xl bg-white bg-opacity-50 p-4 shadow-md dark:bg-black dark:bg-opacity-100"
-        >
+        <div class="project-card-container">
           <!-- Project Image -->
           <img
             src="./assets/project-ev-trip-planner.png"
-            class="rounded-xl"
+            class="project-mockup"
             alt="app demo"
           />
 
@@ -159,7 +148,7 @@
 
           <h2 class="my-3 text-3xl">EV Trip Planner</h2>
 
-          <p class="text-gray-500">
+          <p class="project-description">
             Plan an optimized itinerary for long-distance journeys using the
             vehicle's battery capacity, energy efficiency & driving efficiency.
             Available in over 65 countries.
@@ -167,91 +156,69 @@
 
           <!-- Tech Stack -->
 
-          <div class="mt-3 flex flex-wrap gap-2">
-            <div class="rounded-xl border border-indigo-400 px-3">React</div>
-            <div class="rounded-xl border border-indigo-400 px-3">
-              Material UI
-            </div>
-            <div class="rounded-xl border border-indigo-400 px-3">Vercel</div>
-            <div class="rounded-xl border border-indigo-400 px-3">
-              Here Maps API
-            </div>
+          <div class="tech-stack-container">
+            <div class="tech-stack-pill">React</div>
+            <div class="tech-stack-pill">Material UI</div>
+            <div class="tech-stack-pill">Vercel</div>
+            <div class="tech-stack-pill">Here Maps API</div>
           </div>
 
           <!-- Buttons -->
-          <div
-            class="mx-auto my-3 mt-auto flex w-3/4 flex-col justify-center space-y-2 pt-4 text-center"
-          >
-            <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-300/40 px-4 py-2 transition-all hover:scale-105"
-              >View Source
+          <div class="project-btn-container">
+            <a href="https://ev-trip-planner.vercel.app/" class="primary-link"
+              >See Demo
             </a>
             <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-400 px-4 py-2 text-white transition-all hover:scale-105"
-              >See Demo
+              href="https://github.com/kedaroo/trip-planner"
+              class="secondary-link"
+              >View Source
             </a>
           </div>
         </div>
         <!--  -->
 
         <!-- PAViC Card -->
-        <div
-          class="flex transform flex-col rounded-xl bg-white bg-opacity-50 p-4 shadow-md dark:bg-black dark:bg-opacity-100"
-        >
+        <div class="project-card-container">
           <!-- Project Image -->
-          <img src="./assets/PAViC.png" class="rounded-xl" alt="app demo" />
+          <img src="./assets/PAViC.png" class="project-mockup" alt="app demo" />
 
           <!-- Title & Descriptions -->
 
           <h2 class="my-3 text-3xl">PAViC</h2>
 
-          <p class="text-gray-500">
+          <p class="project-description">
             A simple, easy-to-use and a hassle-free app for making fast and
             secure payments using your mobile phone, powered by blockchain.
           </p>
 
           <!-- Tech Stack -->
 
-          <div class="mt-3 flex flex-wrap gap-2">
-            <div class="rounded-xl border border-indigo-400 px-3">
-              React Native
-            </div>
-            <div class="rounded-xl border border-indigo-400 px-3">
-              PostgresSQL
-            </div>
-            <div class="rounded-xl border border-indigo-400 px-3">
-              Socket.io
-            </div>
+          <div class="tech-stack-container">
+            <div class="tech-stack-pill">React Native</div>
+            <div class="tech-stack-pill">PostgresSQL</div>
+            <div class="tech-stack-pill">Socket.io</div>
           </div>
 
           <!-- Buttons -->
-          <div
-            class="mx-auto my-3 mt-auto flex w-3/4 flex-col justify-center space-y-2 pt-4 text-center"
-          >
+          <div class="project-btn-container">
             <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-300/40 px-4 py-2 transition-all hover:scale-105"
-              >View Source
-            </a>
-            <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-400 px-4 py-2 text-white transition-all hover:scale-105"
+              href="https://play.google.com/store/apps/details?id=com.kedaroo.pave&hl=en&gl=US"
+              class="primary-link"
               >See Demo
+            </a>
+            <a href="https://github.com/kedaroo/PAViC" class="secondary-link"
+              >View Source
             </a>
           </div>
         </div>
         <!--  -->
 
         <!-- DOJO Card -->
-        <div
-          class="transform rounded-xl bg-white bg-opacity-50 p-4 shadow-md dark:bg-black dark:bg-opacity-100"
-        >
+        <div class="project-card-container">
           <!-- Project Image -->
           <img
             src="./assets/project-dojo.png"
-            class="rounded-xl"
+            class="project-mockup"
             alt="app demo"
           />
 
@@ -259,45 +226,41 @@
 
           <h2 class="my-3 text-3xl">Dojo Planner</h2>
 
-          <p class="text-gray-500">
-            Dojo is a project management app, that comes with the following set
-            of features: - Add new projects - Assign collaborators - Live
-            chatting between collaborators - Online/offline status badge.
+          <p class="project-description">
+            A project management app, with features such as: add new projects,
+            assign collaborators, live chatting between collaborators &
+            online/offline status badge.
           </p>
 
           <!-- Tech Stack -->
 
-          <div class="mt-3 flex flex-wrap gap-2">
-            <div class="rounded-xl border border-indigo-400 px-3">React</div>
-            <div class="rounded-xl border border-indigo-400 px-3">Firebase</div>
+          <div class="tech-stack-container">
+            <div class="tech-stack-pill">React</div>
+            <div class="tech-stack-pill">Firebase</div>
           </div>
 
           <!-- Buttons -->
-          <div
-            class="mx-auto my-3 flex w-3/4 flex-col justify-center space-y-2 pt-4 text-center"
-          >
+          <div class="project-btn-container">
             <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-300/40 px-4 py-2 transition-all hover:scale-105"
-              >View Source
+              href="https://project-management-app-psi.vercel.app/"
+              class="primary-link"
+              >See Demo
             </a>
             <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-400 px-4 py-2 text-white transition-all hover:scale-105"
-              >See Demo
+              href="https://github.com/kedaroo/project-management-app"
+              class="secondary-link"
+              >View Source
             </a>
           </div>
         </div>
         <!--  -->
 
         <!-- Finance Tracker Card -->
-        <div
-          class="flex transform flex-col rounded-xl bg-white bg-opacity-50 p-4 shadow-md dark:bg-black dark:bg-opacity-100"
-        >
+        <div class="project-card-container">
           <!-- Project Image -->
           <img
             src="./assets/project-finance-tracker.png"
-            class="rounded-xl"
+            class="project-mockup"
             alt="app demo"
           />
 
@@ -305,30 +268,28 @@
 
           <h2 class="my-3 text-3xl">Finance Tracker</h2>
 
-          <p class="text-gray-500">
+          <p class="project-description">
             Log your expenses on the cloud using Finance Tracker. Designed with
             a clean and minimal UI.
           </p>
 
           <!-- Tech Stack -->
 
-          <div class="mt-3 flex flex-wrap gap-2">
-            <div class="rounded-xl border border-indigo-400 px-3">React</div>
-            <div class="rounded-xl border border-indigo-400 px-3">Firebase</div>
+          <div class="tech-stack-container">
+            <div class="tech-stack-pill">React</div>
+            <div class="tech-stack-pill">Firebase</div>
           </div>
 
           <!-- Buttons -->
-          <div
-            class="mx-auto my-3 mt-auto flex w-3/4 flex-col justify-center space-y-2 pt-4 text-center"
-          >
+          <div class="project-btn-container">
             <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-300/40 px-4 py-2 transition-all hover:scale-105"
+              href="https://github.com/kedaroo/finance-tracker"
+              class="secondary-link"
               >View Source
             </a>
             <a
-              href="#"
-              class="transform rounded-lg border-2 border-indigo-400 bg-indigo-400 px-4 py-2 text-white transition-all hover:scale-105"
+              href="https://kedar-finance-tracker.netlify.app/"
+              class="primary-link"
               >See Demo
             </a>
           </div>
