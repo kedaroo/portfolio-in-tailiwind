@@ -30,17 +30,9 @@
   }
 
   .skill-pill {
-    @apply rounded-xl bg-indigo-200/40 px-2;
+    @apply rounded-xl border-2 border-slate-400 bg-indigo-200/60 px-2 text-sm dark:bg-indigo-200/10;
   }
 }
-
-/* body {
-  background-color: #ffffff;
-  background-image: radial-gradient(#404040 0.8px, transparent 0.8px),
-    radial-gradient(#2c2c2c 0.8px, #fffef7 0.8px);
-  background-size: 32px 32px;
-  background-position: 0 0, 16px 16px;
-} */
 
 .dark-bg {
   background-color: #ffffff;
@@ -56,50 +48,4 @@
     radial-gradient(#cccccc 0.8px, #f0f0f0 0.8px);
   background-size: 32px 32px;
   background-position: 0 0, 16px 16px;
-}
-
-/* Hamburger Menu */
-.hamburger {
-  cursor: pointer;
-  width: 24px;
-  height: 24px;
-  transition: all 0.25s;
-  position: relative;
-}
-
-.hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
-  position: absolute;
-  width: 24px;
-  height: 2px;
-  top: 0;
-  left: 0;
-  background: rgba(234, 117, 255, 0.629);
-  transform: rotate(0);
-  transition: all 0.5s;
-}
-
-.hamburger-middle {
-  transform: translateY(7px);
-}
-
-.hamburger-bottom {
-  transform: translateY(14px);
-}
-
-.open {
-  transform: rotate(90deg);
-}
-
-.open .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translateX(6px);
-}
-
-.open .hamburger-middle {
-  display: none;
-}
-
-.open .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
