@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         sans: ["Space Grotesk", "sans-serif"],
       },
+      boxShadow: {
+        '3xl': '8px 8px rgba(0, 0, 0)',
+      },
       colors: {
         "hero-red": "#ed5b42",
         "hero-orange": "#f4aa85",
