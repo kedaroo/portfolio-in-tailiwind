@@ -34,27 +34,27 @@
   }
 
   .project-mockup {
-    @apply rounded-lg shadow-md;
+    @apply rounded-sm border;
   }
 
   .project-description {
     @apply text-gray-600 dark:text-gray-500;
   }
 
-  /* .tech-stack-pill {
-    @apply rounded-xl border border-indigo-400 bg-indigo-50 px-3;
-  } */
+  .tech-stack-pill {
+    @apply  border border-black   px-3;
+  }
 
   .primary-link {
-    @apply transform rounded-lg border-2 border-indigo-400 bg-indigo-400 px-4 py-2 text-white shadow-md shadow-indigo-200 transition-all hover:scale-105;
+    @apply transform hover:shadow-3xl  border-2 border-indigo-400 bg-indigo-400 px-4 py-2 text-white  transition-all hover:scale-105;
   }
 
   .secondary-link {
-    @apply transform rounded-lg border-2 border-indigo-400 bg-indigo-300/40 px-4 py-2 shadow-md transition-all hover:scale-105;
+    @apply transform  hover:shadow-3xl border-2 border-indigo-400  px-4 py-2  transition-all hover:scale-105;
   }
 
   .project-btn-container {
-    @apply mx-auto my-3 mt-auto flex w-3/4 flex-col justify-center space-y-2 pt-8 text-center;
+    @apply mx-auto my-3 mt-auto flex w-3/4 flex-col justify-center space-y-3 pt-8 text-center;
   }
 
   .tech-stack-container {
@@ -62,7 +62,7 @@
   }
 
   .project-card-container {
-    @apply flex h-full flex-col rounded-xl bg-white bg-opacity-50 p-4 shadow-md dark:bg-black dark:bg-opacity-100;
+    @apply flex h-full  flex-col border-2 border-black bg-white bg-opacity-50 p-4 dark:bg-black dark:bg-opacity-100;
   }
 }
 
